@@ -1,0 +1,1 @@
+const tanya = "18 year old";
