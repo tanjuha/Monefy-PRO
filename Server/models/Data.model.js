@@ -11,7 +11,7 @@ const dataShema = new Shema({
     type: Shema.Types.ObjectId
   },
   user: {
-    ref: 'user',
+    ref: 'users',
     type: Shema.Types.ObjectId
   }
 });

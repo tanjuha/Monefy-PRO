@@ -10,9 +10,16 @@ const costShema = new Shema({
     type: Number,
     required: true
   },
-  // category: {
-  //   type: 
-  // }
+  category: {
+    name: {
+      type: String,
+      required: true
+    },
+    imgSrc: {
+      type: String,
+      default: ''
+    }
+  }
 })
 
 module.exports = mongoose.model('costs', costShema);
