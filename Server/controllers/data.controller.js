@@ -6,33 +6,16 @@ module.exports.getAllData = async (req, res) => {
   })
 }
 
-module.exports.getDataForDay= async (req, res) => {
+module.exports.update = async (req, res) => {
   res.status(200).json({
-    message: 'GetDataForDay'
-  })
-}
-
-module.exports.getDataForWeek = async (req, res) => {
-  res.status(200).json({
-    message: 'getDataForWeek'
-  })
-}
-
-module.exports.getDataForMounth = async (req, res) => {
-  res.status(200).json({
-    message: 'getDataForMounth'
-  })
-}
-
-module.exports.getDataForYear = async (req, res) => {
-  res.status(200).json({
-    message: 'getDataForYear'
+    message: 'Update data'
   })
 }
 
 module.exports.create = async (req, res) => {
   res.status(200).json({
-    message: 'create data'
+    message: 'Create data'
   })
 }
+
 
